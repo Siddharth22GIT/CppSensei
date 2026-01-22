@@ -1,0 +1,16 @@
+# 🔴 Secrets
+.env
+
+# 🔴 Virtual environment
+venv/
+
+# 🔴 Python cache
+__pycache__/
+
+# 🔴 Generated AI files (optional but recommended)
+vector.index
+documents.txt
+
+# 🔴 OS junk
+.DS_Store
+Thumbs.db

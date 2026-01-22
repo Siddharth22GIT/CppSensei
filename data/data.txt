@@ -1,0 +1,169 @@
+C++ is a general purpose programming language developed by Bjarne Stroustrup as an extension of the C language.
+C++ supports procedural programming, object oriented programming, and generic programming.
+C++ is widely used in system programming, game development, embedded systems, and competitive programming.
+
+A variable in C++ is a named memory location used to store data.
+Common data types in C++ include int, float, double, char, and bool.
+The size of an int is typically 4 bytes on most systems.
+
+The const keyword is used to declare variables whose values cannot be changed.
+The auto keyword allows the compiler to deduce the type of a variable automatically.
+
+Operators in C++ include arithmetic, relational, logical, bitwise, assignment, and conditional operators.
+Arithmetic operators perform addition, subtraction, multiplication, division, and modulus operations.
+
+Control statements include if, else, switch, for, while, and do while.
+The break statement terminates a loop or switch statement.
+The continue statement skips the current iteration of a loop.
+
+A function is a block of code that performs a specific task.
+The main function is the entry point of a C++ program.
+Function overloading allows multiple functions with the same name but different parameters.
+
+An array is a collection of elements of the same data type stored in contiguous memory locations.
+Array indexing in C++ starts from zero.
+A multidimensional array is an array of arrays.
+
+A pointer is a variable that stores the memory address of another variable.
+The address-of operator is represented by the ampersand symbol.
+The dereference operator is represented by the asterisk symbol.
+A null pointer does not point to any valid memory location.
+
+Dynamic memory allocation is performed using new and delete operators.
+The new operator allocates memory on the heap.
+The delete operator deallocates memory previously allocated with new.
+
+A reference is an alias for an existing variable and must be initialized at declaration.
+References cannot be reassigned after initialization.
+
+A structure is a user defined data type that groups variables of different data types.
+Members of a structure are accessed using the dot operator.
+
+A class is a blueprint for creating objects.
+An object is an instance of a class.
+Access specifiers include public, private, and protected.
+
+Encapsulation binds data and methods together and hides implementation details.
+Abstraction exposes only essential features and hides complex implementation.
+Inheritance allows a class to derive properties and methods from another class.
+Polymorphism allows the same function to behave differently in different contexts.
+
+A constructor is a special member function called when an object is created.
+A destructor is a special member function called when an object is destroyed.
+Constructors do not have a return type and have the same name as the class.
+
+The this pointer holds the address of the current object.
+Static data members are shared among all objects of a class.
+
+A virtual function supports runtime polymorphism.
+A base class pointer can point to a derived class object.
+
+The Standard Template Library provides containers, algorithms, and iterators.
+Common STL containers include vector, list, deque, stack, queue, priority_queue, set, map, and unordered_map.
+
+A vector is a dynamic array that resizes automatically.
+A list is a doubly linked list implementation.
+A deque allows insertion and deletion at both ends.
+
+A stack is a linear data structure that follows the Last In First Out principle.
+Common stack operations include push, pop, top, and isEmpty.
+A queue is a linear data structure that follows the First In First Out principle.
+Common queue operations include enqueue, dequeue, front, and rear.
+
+A priority queue stores elements such that the highest priority element is removed first.
+A circular queue connects the end of the queue back to the front.
+
+A linked list is a linear data structure where elements are connected using pointers.
+A singly linked list contains nodes with data and a pointer to the next node.
+A doubly linked list contains pointers to both next and previous nodes.
+A circular linked list connects the last node back to the first node.
+
+A tree is a hierarchical data structure consisting of nodes and edges.
+The root is the topmost node in a tree.
+A binary tree is a tree where each node has at most two children.
+A binary search tree stores elements such that left subtree values are smaller and right subtree values are larger.
+
+Tree traversal methods include inorder, preorder, and postorder traversal.
+A heap is a complete binary tree that satisfies the heap property.
+A max heap stores the largest element at the root.
+A min heap stores the smallest element at the root.
+
+A graph is a collection of vertices and edges.
+Graphs can be directed or undirected.
+Graph traversal methods include breadth first search and depth first search.
+
+Searching algorithms include linear search and binary search.
+Sorting algorithms include bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.
+
+The time complexity of binary search is O(log n).
+The time complexity of merge sort is O(n log n).
+
+An iterator is an object used to traverse elements of a container.
+The begin function returns an iterator to the first element.
+The end function returns an iterator to one past the last element.
+
+The string class stores sequences of characters.
+The length of a string can be obtained using size or length functions.
+
+Exception handling uses try, catch, and throw keywords.
+An exception represents an error condition during program execution.
+
+File handling is performed using ifstream, ofstream, and fstream classes.
+The ifstream class reads from files.
+The ofstream class writes to files.
+
+Templates allow writing generic functions and classes.
+A function template defines a generic function.
+A class template defines a generic class.
+
+Namespaces prevent name conflicts in large programs.
+The std namespace contains standard library identifiers.
+
+Inline functions reduce function call overhead by expanding code at the call site.
+The mutable keyword allows modification of class members in const functions.
+
+The sizeof operator returns the size of a variable or data type in bytes.
+The typedef keyword creates an alias for an existing data type.
+
+The volatile keyword indicates that a variable may change unexpectedly.
+The friend keyword allows access to private members of a class.
+
+Lambda expressions are anonymous functions introduced in C++11.
+Smart pointers include unique_ptr, shared_ptr, and weak_ptr.
+RAII ensures resource acquisition and release using object lifetime.
+
+Move semantics transfers resources efficiently using move constructors.
+The std::move function converts an lvalue into an rvalue reference.
+
+The constexpr keyword evaluates expressions at compile time.
+The nullptr keyword represents a null pointer constant.
+
+Enum class provides scoped and strongly typed enumerations.
+The using keyword creates type aliases and imports names.
+
+The iostream library provides input and output using cin and cout.
+The endl manipulator inserts a newline and flushes the output buffer.
+
+The compilation process includes preprocessing, compilation, linking, and execution.
+The linker combines object files and resolves references.
+
+Multiple inheritance allows a class to inherit from multiple base classes.
+Virtual inheritance avoids duplication in diamond inheritance problems.
+
+A pure virtual function makes a class abstract.
+An abstract class cannot be instantiated.
+
+The static_cast operator performs compile time type conversion.
+The dynamic_cast operator performs runtime type checking.
+
+Const correctness prevents modification of data using const qualifiers.
+
+The thread library provides multithreading support.
+A mutex protects shared data from concurrent access.
+The lock_guard class manages mutex locking automatically.
+
+The chrono library measures time and durations.
+The filesystem library performs file system operations.
+
+Fast input output techniques improve competitive programming performance.
+The ios_base::sync_with_stdio function disables synchronization with C IO for faster execution.
