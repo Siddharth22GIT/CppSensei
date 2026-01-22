@@ -1,7 +1,6 @@
-flask
-gunicorn
-python-dotenv
 sentence-transformers
-transformers
 faiss-cpu
-torch==2.10.0
+python-dotenv
+transformers
+torch
+gunicorn
