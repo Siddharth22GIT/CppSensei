@@ -1,6 +1,7 @@
 flask
-sentence-transformers
-faiss-cpu
-transformers
-torch
 gunicorn
+python-dotenv
+sentence-transformers
+transformers
+faiss-cpu
+torch==2.1.2+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
