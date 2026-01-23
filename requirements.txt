@@ -1,6 +1,7 @@
-sentence-transformers
-faiss-cpu
-python-dotenv
-transformers
-torch
+flask
 gunicorn
+python-dotenv
+sentence-transformers
+transformers
+faiss-cpu
+torch
